@@ -1,20 +1,28 @@
 var questions = [
 {
-    title: "Q1: .......",
-    choices: ["Q1a1", "Q1a2", "Q1a3", "Q1a4"],
+    title: "Q1: What word is used to create a new file in Console/Bash?",
+    choices: ["New", "Create", "Add", "Touch"],
+    answer: "3"
+},
+{
+    title: "Q2: What do you type to view all files in current folder of Console/Bash?",
+    choices: ["sf", "lf", "ls", "sh"],
+    answer: "2"
+},
+{
+    title: "Q3: HTML is used to…",
+    choices: ["Write content", "Format content", "Tell content what to do", "Hold the mayo Larry"],
     answer: "0"
 },
 {
-    title: "Q2: .......",
-    choices: ["Q2a1", "Q2a2", "Q2a3", "Q2a4"],
+    title: "Q4: CSS is used to…",
+    choices: ["Write content", "Format content", "Tell content what to do", "complete several sandwiches"],
     answer: "1"
-},{
-    title: "Q3: .......",
-    choices: ["Q3a1", "Q3a2", "Q3a3", "Q3a4"],
-    answer: "2"
-},{
-    title: "Q4: .......",
-    choices: ["Q4a1", "Q4a2", "Q4a3", "Q4a4"],
-    answer: "3"
 },
+{
+    title: "Q4: JS is used to…",
+    choices: ["Write content", "Format content", "Tell content what to do", "juggle sausages"],
+    answer: "2"
+},
+
 ]

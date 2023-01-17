@@ -16,7 +16,7 @@ if (historicScores === null) {
 timer = document.getElementById('time');
 
 myQuestions.addEventListener('click', (event) => {
-    if ((event.target.id === correctAnswer) && (index === 4)) {
+    if ((event.target.id === correctAnswer) && (index === questions.length)) {
         End()
     } else if (event.target.id === correctAnswer) {
         playCorrect();
