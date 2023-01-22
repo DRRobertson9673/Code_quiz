@@ -1,11 +1,14 @@
+// settings variabls and gettings high scores from local storage
 var scoreList = document.querySelector("#highscores");
 var LocalHighScores = JSON.parse(localStorage.getItem('high scores'));
 if (LocalHighScores === null) {
     LocalHighScores = [];
 }
 
+// event listener for clear button
 document.getElementById('clear').addEventListener("click", clearLocal);
 
+// function to populate highscores list
 populateHighscores();
 
 
@@ -19,6 +22,7 @@ function populateHighscores() {
     } 
 }
 
+// function to clear high scores
 function clearLocal() {
     window.localStorage.clear();
     LocalHighScores = [];
